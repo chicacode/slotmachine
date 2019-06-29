@@ -1,27 +1,28 @@
 @charset "UTF-8";
 
-#bombos .slots, #bombos .controles {
-	list-style:none;
-	padding:20px;
-	width:80%;
+#bombos .slots,
+#bombos .controles {
+	list-style: none;
+	padding: 20px;
+	width: 80%;
 	margin: 10px auto;
-	border:1px solid silver;
-	border-radius:10px;
-	text-align:center;
+	border: 1px solid silver;
+	border-radius: 10px;
+	text-align: center;
 	background: black;
 }
 
-#bombos .slots li {
-	
-	display:inline-block;
-	padding:10px;
+#bombos .slots td {
+
+	display: inline-block;
+	padding: 10px;
 	margin: 10px auto;
-	border:1px solid silver;
-	border-radius:10px;
+	border: 1px solid silver;
+	border-radius: 10px;
 }
 
-#bombos .slots li  img{
-	width:80px;
+#bombos .slots td img {
+	width: 80px;
 }
 
 h2 {
@@ -30,5 +31,5 @@ h2 {
 
 .info {
 	background: black;
-	text-align:center;
+	text-align: center;
 }
