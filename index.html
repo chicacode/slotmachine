@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--HEAD-->
+	<title>Slot Machine App</title>
+	<!--Metadata-->
+	<meta charset="utf-8">
+	<meta name="keywords" content="slot machine created in HTML, CSS, Javascript">
+	<meta name="author" content="Gerson Laporta">
+	<meta name="description" content="Slot machine Game">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Styles CSS-->
+	<link rel="stylesheet" href="css/estilos.css">
+	<!--Iconos-->
+	<script src="https://kit.fontawesome.com/a13b2b48bb.js"></script>
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300i,400i,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="bombos">
+
+		<ul class="slots">
+			<li>
+				<img id="bombo1" alt="" src="img/slot0.png">
+			</li>
+			<li>
+				<img id="bombo2" alt="" src="img/slot0.png">
+			</li>
+			<li>
+				<img id="bombo3" alt="" src="img/slot0.png">
+			</li>
+		</ul>
+
+		<div class="controles">
+			<input type="button" value="start" id="start">
+		</div>
+
+		<div class="controles">
+			<h2>POINTS</h2>
+			<input type="text" value="" id="points" readonly>
+		</div>
+
+		<div class="info">
+			<h2>INFO</h2>
+			<input type="text" value="" id="info" readonly>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="js/azar.js"></script>
+</body>
+
+</html>
