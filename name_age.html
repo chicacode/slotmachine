@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ARCADIA - SLOT MACHINE</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Web Development,Programmer,Design">
+    <meta name="author" content="Gerson and Mateu">
+    <meta name="description" content="Arcadia - Slot Machine">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS style-->
+    <link rel="stylesheet" href="css/style1.css">
+    <!--Animation library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!--Icons Library-->
+    <script src="https://kit.fontawesome.com/a13b2b48bb.js"></script>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300i,400i,500&display=swap" rel="stylesheet">
+    <!--Javascript file-->
+	<script type="text/javascript" src="js/arcadia.js"></script>
+</head>
+
+<body>
+
+    <div>
+
+            <div class="animated fadeInDown delay-0s" id="clouds1">
+                    <img src="img/clouds1.png" alt="clouds" height="" width="100%"> 
+                </div>
+            
+                <div class="animated fadeInDown delay-1s" id="clouds2">
+                    <img src="img/clouds2.png" alt="clouds" height="" width="100%"> 
+                </div>
+            
+                <div class="animated fadeInDown delay-2s" id="clouds3">
+                    <img src="img/clouds3.png" alt="clouds" height="" width="100%"> 
+            </div>
+
+            <div id="write">
+                    <form>
+                        <label for="name">WRITE YOUR NAME:
+                        <br>
+                            <input type="text" name="name" value="" id="name">
+                        </label>
+                        <br>
+                        <label for="age">WRITE YOUR AGE:
+                        <br>
+                        <input type="number" name="age" value="" id="age">
+                        </label>
+                        <br>
+                        <i class="fas fa-arrow-right" style="cursor:pointer;" onclick="go_arcadia();"></i>
+                </form>
+            </div>
+
+            <div id="div_error">
+                <p id="p1">
+                    <a href="name_age.html">
+                        <i id="arrow" class="fas fa-arrow-left" style="display: none;"></i>
+                    </a>
+                </p>
+            </div>
+
+    </div>
+
+</body>
+
+</html>
